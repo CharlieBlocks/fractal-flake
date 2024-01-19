@@ -1,0 +1,12 @@
+[package]
+name = "fractal_flake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+isahc = {version = "1.7.2", features = ["json"]}
+serde = {version = "1.0.195", features = ["derive"]}
+thiserror = "1.0.56"
+
+[dev-dependencies]
+thread-id = "4.2.1"
